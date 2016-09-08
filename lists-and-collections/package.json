@@ -1,0 +1,16 @@
+{
+  "name": "lists-and-collections",
+  "version": "0.0.0",
+  "description": "Working with Lists and Collections",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "KnockoutJS",
+    "lists",
+    "collections"
+  ],
+  "author": "Bozhin Karaivanov",
+  "license": "MIT"
+}
