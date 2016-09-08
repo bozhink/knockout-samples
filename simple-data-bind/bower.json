@@ -1,0 +1,23 @@
+{
+  "name": "simple-data-bind",
+  "description": "Simple data-binding",
+  "main": "app.js",
+  "authors": [
+    "Bozhin Karaivanov"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Knockout"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "^3.4.0"
+  }
+}

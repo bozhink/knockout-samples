@@ -1,0 +1,14 @@
+{
+  "name": "simple-data-bind",
+  "version": "0.0.0",
+  "description": "Simple data-binding",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Knockout"
+  ],
+  "author": "Bozhin Karaivanov",
+  "license": "MIT"
+}
