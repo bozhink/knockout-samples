@@ -1,0 +1,27 @@
+{
+  "name": "single-page-application",
+  "description": "Single Page Application",
+  "main": "app.js",
+  "authors": [
+    "Bozhin Karaivanov"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "KnockoutJS",
+    "Single",
+    "Page",
+    "Application"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "knockout": "^3.4.0"
+  }
+}
