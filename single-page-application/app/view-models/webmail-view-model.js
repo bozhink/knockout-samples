@@ -8,28 +8,10 @@ function WebmailViewModel() {
 
     // Behaviours
     self.goToFolder = function (folder) {
-        self.chosenFolderId(folder);
-        self.chosenMailData(null); // Stop showing a mail
-        $.get(
-            '/mail',
-            {
-                folder: folder
-            },
-            self.chosenFolderData);
+        location.hash = folder
     };
 
     self.goToMail = function (mail) {
-        self.chosenFolderId(mail.folder);
-        self.chosenFolderData(null); // Stop showing a folder
-        $.get(
-            '/mail',
-            {
-                mailId: mail.id
-            },
-            self.chosenMailData);
+        location.hash = mail.folder + '/' + mail.id
     };
-
-    // Show inbox by default
-    self.goToFolder('Inbox');
 };
-
