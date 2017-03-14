@@ -20,7 +20,7 @@ function ReservationsViewModel() {
         new SeatReservation(`N'Gosho`, self.availableMeals[2]),
     ]);
 
-    // Opearions
+    // Operations
     self.addSeat = function() {
         self.seats.push(new SeatReservation('', self.availableMeals[0]));
     }
